@@ -4,16 +4,13 @@ Steps to run this project:
 
 1. Run `npm i` command
 2. Setup database settings inside `data-source.ts` file
-3. Run `npm start` command
-4. Migrations :
-
-npm run typeorm migration:generate ./src/migration/migration_name
-npm run migration:create:win --name=initialDataSeed
-npm run typeorm migration:run
-npm run typeorm migration:revert
+3. Run "npm run dev" to run the project in dev mode
+4. Run "npm run build" to create the build  
+5. Run `npm start` command
+6. Migrations :
 
 Eslint
-npx eslint .
+1. npm run lint
 
 Prettier
-npx prettier . --write
+npm run prettier
